@@ -1,0 +1,6 @@
+[book]
+authors = ["snwy"]
+language = "en"
+multilingual = false
+src = "src"
+title = "The Aurora Programming Language"
