@@ -34,7 +34,7 @@ print add(1, 2) # cannot call a subroutine like this; only functions
 Aurora has two types of top-level calls: functions and subroutines. Functions are called like `add(1, 2)`, while subroutines are called like `print "Hello, world!"`. Functions can be called from anywhere, while subroutines can only be called from the top level. Functions can (and must) return values, while subroutines cannot. Functions are defined with `fn`, while subroutines are defined with `sub`.
 
 ## Variables
-Variables use scoping like Python. 
+Variables use scoping like most C-like languages. 
     
 ```aurora
 # This is a global variable
