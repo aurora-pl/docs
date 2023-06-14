@@ -60,7 +60,7 @@ Aurora has the following types:
 - `str`: a string
 - `num`: a number
 - `bool`: a boolean
-- `array`: a list of values
+- `list`: a list of values
 - `fn`: a function
 - `sub`: a subroutine
 - `map`: a map of keys to values
