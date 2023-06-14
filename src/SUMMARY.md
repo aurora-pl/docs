@@ -7,6 +7,7 @@
   - [Variables](./lang/variables.md)
   - [Lists](./lang/lists.md)
   - [Maps](./lang/maps.md)
+  - [Operators](./lang/operators.md)
 - [Standard Library](./stdlib/library.md)
   - [I/O](./stdlib/io.md)
   - [File](./stdlib/file.md)
