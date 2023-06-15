@@ -1,15 +1,15 @@
 # Operators
 ## Precedence Table
-| Precedence | Operator                         | Description                     |
-|------------|----------------------------------|---------------------------------|
-| 1          | `.`                              | Apply operator                  |
-| 3          | `()`, `:`, `::`                  | Function call, index, map index |
-| 4          | `not`                            | Logical not                     |
-| 5          | `*`, `/`, `%`                    | Multiplication, division, mod   |
-| 6          | `+`, `-`                         | Addition, subtraction           |
-| 7          | `==`, `!=`, `<`, `<=`, `>`, `>=` | Comparison                      |
-| 8          | `and`                            | Logical and                     |
-| 9          | `or`                             | Logical or                      |
+| Precedence | Operator                         | Description                                   |
+|------------|----------------------------------|-----------------------------------------------|
+| 1          | `-`, `fmt`                       | Unary minus, string formatting                |
+| 2          | `()`, `:`, `::`                  | Function call, index, map index               |
+| 3          | `not`                            | Logical not                                   |
+| 4          | `*`, `/`, `%`, `.`               | Multiplication, division, mod, apply operator |
+| 5          | `+`, `-`                         | Addition, subtraction                         |
+| 6          | `==`, `!=`, `<`, `<=`, `>`, `>=` | Comparison                                    |
+| 7          | `and`                            | Logical and                                   |
+| 8          | `or`                             | Logical or                                    |
 
 
 ## Arithmetic Operators
@@ -34,6 +34,13 @@
 true and false # false
 true or false # true
 not true # false
+```
+## String Formatting Operator
+The string formatting operator (`fmt`) is used to format a string.
+It takes a string, with expressions inside curly braces (`{}`).
+```aurora
+name = "world"
+print fmt"Hello, {name}!"
 ```
 ## Apply Operator
 The apply operator (`.`) is used to call a function on a value.
