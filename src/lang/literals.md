@@ -11,6 +11,14 @@ There is also a shorthand syntax for string literals, which is the `'` character
 'hello # Shorthand syntax for string literals, known as a symbol in other languages
 ```
 
+You can do string interpolation with the `fmt` operator.
+It takes a string, with expressions inside curly braces (`{}`).
+
+```aurora
+name = "world"
+print fmt"Hello, {name}!"
+```
+
 ## Number Literals
 Number literals are pretty standard.
 They can be written in decimal, hexadecimal, octal, or binary.
