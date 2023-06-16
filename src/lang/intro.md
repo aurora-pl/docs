@@ -78,8 +78,8 @@ Aurora includes the following types:
 Aurora's concise syntax and simplicity make it an appealing choice for scripting and automating tasks efficiently.
 
 ## Aurora vs. Shell
+Aurora outshines traditional shell scripting with its focus on readability and simplicity. Its intuitive syntax, plain English function names, and clean structure enhance code comprehension. Aurora's built-in functions and higher-level abstractions simplify complex tasks, reducing convoluted command chains. This results in concise, straightforward code that is easier to understand and maintain. By prioritizing readability and simplicity, Aurora offers an approachable and error-resistant scripting experience, boosting productivity.
 ```bash
-
 #!/bin/bash
 
 directory="/path/to/directory"
@@ -94,9 +94,7 @@ for file in "$directory"/*; do
     fi
 done
 ```
-Aurora outshines traditional shell scripting with its focus on readability and simplicity. Its intuitive syntax, plain English function names, and clean structure enhance code comprehension. Aurora's built-in functions and higher-level abstractions simplify complex tasks, reducing convoluted command chains. This results in concise, straightforward code that is easier to understand and maintain. By prioritizing readability and simplicity, Aurora offers an approachable and error-resistant scripting experience, boosting productivity.
 ```aurora
-
 #!/bin/aurora
 
 directory = "/path/to/directory"
