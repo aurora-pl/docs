@@ -14,12 +14,12 @@ Aurora is a powerful yet remarkably simple programming language designed for scr
 # This is a comment
 
 # This is a subroutine
-sub hello(name)
+sub hello name
     print fmt"Hello, {name}!"
 end
 
 # This is a function
-fn add(a, b)
+fn add a, b
     return a + b
 end
 
