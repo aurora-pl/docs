@@ -30,3 +30,48 @@ Calls the given function the given number of times.
 end
 ```
 
+## `set_dir`
+```aurora
+sub set_dir str
+```
+
+### Description
+Sets the current working directory to the given path.
+
+### Example
+```aurora
+set_dir "/home/user"
+```
+
+## `get_dir`
+```aurora
+fn get_dir -> str
+```
+
+### Description
+Returns the current working directory.
+
+### Example
+```aurora
+print get_dir() # /home/user
+```
+
+## `in_dir`
+```aurora
+sub in_dir str, callable
+```
+
+### Description
+Sets the current working directory to the given path, calls the given callable, and then restores the previous working directory.
+
+### Example
+```aurora
+set_dir "/foo/bar"
+print get_dir() # /foo/bar
+
+in_dir "/home/user" do
+    print get_dir() # /home/user
+end
+
+print get_dir() # /foo/bar
+```
